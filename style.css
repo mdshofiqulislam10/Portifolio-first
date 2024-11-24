@@ -87,6 +87,10 @@ header{
     margin-left: 120px;
     margin-top: 10px;
 }
+.product-card:hover{
+    box-shadow: 0 0 25px rgba(4, 255, 255, 0.9);;
+
+}
 .card-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -106,6 +110,7 @@ header{
     width: 100%;
     height: 300px;
     background-color: gray;
+    margin-left: 10px;
 }
 .contact-heading{
     text-align: center;
@@ -120,6 +125,7 @@ header{
 .contact-name{
     margin-left: 155px;
     margin-top: -25px;
+    color: white;
 }
 .name-hr{
     width:80px;
@@ -129,10 +135,12 @@ header{
 .contact-full-name{
     margin-left: 120px;
     margin-top: -10px;
+    color: white;
 }
 .contact-email{
     margin-left: 400px;
     margin-top: -80px;
+    color: white;
 }
 .email-hr{
     width:80px;
@@ -142,10 +150,12 @@ header{
 .contact-full-email{
     margin-left: 340px;
     margin-top: -10px;
+    color: white;
 }
 .contact-facebook{
     margin-left: 700px;
     margin-top: -80px;
+    color: white;
 }
 .facebook-hr{
     width:100px;
@@ -155,7 +165,71 @@ header{
 .contact-facebook-name{
     margin-left: 650px;
     margin-top: -10px;
+    color: white;
 }
+/* bio details start */
+
+.bio-heading{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.bio-htag{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.bio-ptag{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+/* second bio details */
+.second-bio{
+    margin-top: -50px;
+}
+
+.second-heading{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.second-htag{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.second-ptag{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+/* third bio details my experience */
+.exprience-details{
+    margin-left: 900px;
+    /* border: 1px solid; */
+    margin-top: -300px;
+}
+.ex-ptag{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.ex-pdetails{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.ex-htag{
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.ex-more{
+    margin-top: -50px;
+}
+.more-heading{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.more-details{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+
 /* end contact name email and facebook account section */
 
 /* start footer nav */
@@ -190,11 +264,10 @@ header{
     margin-left: -25px;
     margin-top: -10px;
 }
-/* ecd footer nav */
+/* end footer nav */
 
 
 .forom{
-    /* background-color: aqua; */
     width: 45%;
     height: 250px;
     border: 2px solid black;
@@ -206,11 +279,6 @@ header{
     font-size: 25px;
     text-shadow: 2px 1px 1px;
 }
-/* .from-details{
-    margin-left: 100px;
-    padding: 10px;
-} */
-
 .messege{
     margin-left: 25px;
     margin-top: -20px;
@@ -251,7 +319,7 @@ header{
     text-shadow: 1px 1px 1px;
 }
 
-/* social icon */
+/* social icon start*/
 .social-icon a{
     text-decoration: none;
     padding:5px;
@@ -269,3 +337,4 @@ header{
     /* background-color: #000; */
     transition: 0.5s;
 }
+/* end social media icon */
