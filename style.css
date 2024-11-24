@@ -91,6 +91,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+    margin-bottom: 100px;
 
 }
 .product-card h1{
@@ -98,8 +99,9 @@ header{
     height: 15px;
     margin-top: 5px;
 }
-/* end product card section */
-/* start contact information */
+
+/* end my skill online and off line */
+
 .contact-information{
     width: 100%;
     height: 300px;
@@ -115,45 +117,50 @@ header{
     font-size: large;
     color: white;
 }
-.label{
-    color: white;
+.contact-name{
+    margin-left: 155px;
+    margin-top: -25px;
+}
+.name-hr{
+    width:80px;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+.contact-full-name{
     margin-left: 120px;
-    font-weight: bold;
-    font-size: 20px;
+    margin-top: -10px;
 }
-.cantact-name{
-    color: white;
-    margin-left: 45px;
-    font-weight: bold;
-    margin-top: 5px;
+.contact-email{
+    margin-left: 400px;
+    margin-top: -80px;
 }
-.label-two{
-    font-weight: bold;
-    margin-left: 500px;
-    margin-top: 5px;
+.email-hr{
+    width:80px;
+    margin-left: 390px;
+    margin-top: -20px;
 }
+.contact-full-email{
+    margin-left: 340px;
+    margin-top: -10px;
+}
+.contact-facebook{
+    margin-left: 700px;
+    margin-top: -80px;
+}
+.facebook-hr{
+    width:100px;
+    margin-left: 700px;
+    margin-top: -20px;
+}
+.contact-facebook-name{
+    margin-left: 650px;
+    margin-top: -10px;
+}
+/* end contact name email and facebook account section */
 
-
-.contact-details{
-    /* border: 2px solid black; */
-    
-}
-.contact-details ul{
-    list-style: none;
-    display: flex;
-    /* border: 2px solid yellow; */
-    margin-left: 20px;
-}
-.contact-details ul li{
-    /* border: 2px solid red; */
-    margin-left: 275px;
-}
-.submit{
-    border: 2px solid black;
-    margin-left: 250px;
-}
+/* start footer nav */
 .footer-nav{
-    margin-top: 15px;
+    margin-top: -75px;
     padding: 25px;
 }
 
@@ -182,4 +189,83 @@ header{
     /* border: 2px solid green; */
     margin-left: -25px;
     margin-top: -10px;
+}
+/* ecd footer nav */
+
+
+.forom{
+    /* background-color: aqua; */
+    width: 45%;
+    height: 250px;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+.from-datails-h{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 1px 1px;
+}
+/* .from-details{
+    margin-left: 100px;
+    padding: 10px;
+} */
+
+.messege{
+    margin-left: 25px;
+    margin-top: -20px;
+}
+.hr{
+    margin-top: -15px;
+    width: 120px;
+    height: 2px;
+}
+.from-full-details{
+    margin-left: 25px;
+}
+
+.from-name{
+    width: 95%;
+    height: 25px;
+    margin-left: 5px;
+}
+.bt-submit{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+/* contact box two */
+.forom-two{
+    border: 1px solid;
+    width: 45%;
+    height: 250px;
+    margin-left: 800px;
+    margin-top: -255px;
+}
+.from-datails-htwo{
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px;
+}
+
+/* social icon */
+.social-icon a{
+    text-decoration: none;
+    padding:5px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50px;
+
+}
+.social-icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icon a:hover{
+    /* background-color: #000; */
+    transition: 0.5s;
 }
